@@ -38,7 +38,7 @@ void solve(){
             i++;
         }
 
-     if(flag==0)cout<<"Invalid Input or Undefined1"<<endl;
+     if(flag==0)cout<<"Invalid Input or Undefined"<<endl;
     else cout<<"Float Variable"<<endl;
     }
     else if(isdigit(s[0])){
@@ -67,7 +67,6 @@ void solve(){
     }
     else {
         cout<<"Invalid Input or Undefined"<<endl;
-        cout<<"bal";
         }
     
 }

@@ -82,7 +82,7 @@ void solve(){
     getline(cin,s);
    if(iskeywords(s))cout<<s<<" is a keywords"<<endl;
    else if(isoperator(s))cout<<s<<" is an operator"<<endl;
-   else if(iskeywords(s))cout<<s<<" is a keywords"<<endl;
+   else if(is_identifier(s))cout<<s<<" is a is_identifier"<<endl;
    else if(isconstant(s))cout<<s<<" is a constant"<<endl;
    else cout<<"Ndone of them"<<endl;
    
